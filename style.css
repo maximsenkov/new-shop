@@ -1,1 +1,203 @@
-style
+:root {
+    --dark-blue: 222222;
+    --pink: #F1E4E6;
+    --dark-pink: #F16D7F
+    --brown #474040
+}
+.body {
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.container {
+    width: 1138px;
+    margin: 0 auto;
+}
+
+.visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        padding: 0;
+        overflow: hidden;
+        border: 0;
+        clip: rect(0 0 0 0)
+}
+
+
+.header {
+   background-color: var(--dark-blue);
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 75px;
+}
+
+.header__button {
+    background-color: transparent;
+    border: none;
+    margin: 0 34px 0 0;
+}
+
+.header__logo {
+    margin: 0 41px 0 0;
+}
+
+
+.header__persen-link {
+    margin: 0 34px 0 0;
+}
+
+.header__navigation {
+    display: none;
+}
+.brand {
+    display: flex;
+    background-color: var(--pink);
+    margin: 0 0 65px;
+}
+
+.brand__title {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 58px;
+    text-transform: uppercase;
+}
+
+.brand__title-wrapper {
+    padding: 0 0 0 91px;
+    background-color: var(--pink);
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+.brand__subtitle {
+    display: block;
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 44px;
+}
+
+.brand__subtitle-pink {
+    color: var(--dark-pink);
+}
+
+.offers__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.offers__subtitle-pink {
+    color: var(--dark-pink);
+}
+
+.offers__item {
+    color: white;
+    width: 360px;
+    min-height: 260px;
+    background-color: var(--brown);
+    margin: 0 0 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.offers__item--woman {
+    background-image: url(../lesson-1/img/women.jpg);
+}
+
+.offers__item--man {
+    background-image: url(../lesson-1/img/item--man.jpg);
+}
+
+.offers__item--kids {
+    background-image: url(../lesson-1/img/item--kids.jpg);
+}
+
+.offers__item--accesories {
+    background-image: url(../lesson-1/img/item--accesories.jpg);
+    width: 100%;
+    margin: 0;
+}
+
+.products__heading {
+    color: #222222;   
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    margin: 96px auto 6px;
+}
+
+.products__text {
+    text-align: center;
+    color: #9F9F9F;   
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;  
+    margin-bottom: 48px; 
+}
+
+.products__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product__case {
+    width: 360px;
+    background: #F8F8F8;
+}
+
+.products__heading--item {
+    color: #000000;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    margin: 25px auto 13px 18px;
+}
+
+.product__text--text {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+    color: #5D5D5D;
+    margin: 12px auto 18px 16px;
+}
+
+.product__price {
+   color: #F16D7F;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 19px;
+   margin: 18px auto 20px 18px;  
+}
+
+.products__button {
+    border: 1px solid #FF6A6A;
+    padding: 14px 38px 13px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 63px 480px 109px auto;
+    background: none;
+}
+
+.browse__button {
+    color: #F26376;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
